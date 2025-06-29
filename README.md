@@ -25,11 +25,11 @@ A lightweight, interactive Streamlit web app that predicts household electricity
 ---
 
 ## 📂 Project Structure
-
-smart-home-energy-app/
-├── app.py # Streamlit web app
-├── energy_model.pkl # Trained Random Forest model
-├── power_data.csv # Hourly energy data used for analysis
-├── requirements.txt # Dependencies for deployment
-
-
+  ```bash
+  smart-home-energy-app/
+  ├── app.py # Streamlit web app
+  ├── energy_model.pkl # Trained Random Forest model
+  ├── power_data.csv # Hourly energy data used for analysis
+  ├── requirements.txt # Dependencies for deployment
+  
+  
