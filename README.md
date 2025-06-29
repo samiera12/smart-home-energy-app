@@ -31,5 +31,5 @@ A lightweight, interactive Streamlit web app that predicts household electricity
   ├── energy_model.pkl # Trained Random Forest model
   ├── power_data.csv # Hourly energy data used for analysis
   ├── requirements.txt # Dependencies for deployment
-  
-  
+  ```
+## 
