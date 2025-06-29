@@ -49,12 +49,3 @@ if not today.empty:
     st.pyplot(fig)
 else:
     st.info("No data available for today.")
-
-# --- 5. Optional: Appliance Usage Suggestion ---
-appliance = st.selectbox("Appliance You Plan to Use", ["None", "Washing Machine", "Heater", "AC"])
-if appliance != "None":
-    low_usage_hours = df.groupby("hour")["Global_active_power"].mean().nsmallest(3).index.tolist()
-    if hour in low_usage_hours:
-        st.success(f"✅ It's a good time to use the {appliance}.")
-    else:
-        st.warning(f"⚠️ Try using the {appliance} during lower usage hours like {low_usage_hours[0]}:00.")
