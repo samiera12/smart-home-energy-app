@@ -1,4 +1,4 @@
-# 🔋 Smart Home Energy Usage Predictor
+# Smart Home Energy Usage Predictor
 
 A lightweight, interactive Streamlit web app that predicts household electricity consumption by hour and day of the week. This project helps optimize energy usage by providing intelligent insights such as:
 
@@ -7,11 +7,10 @@ A lightweight, interactive Streamlit web app that predicts household electricity
 - ⚠️ High usage alerts
 - 🕒 Recommended best time to use appliances
 - 📈 Today's usage trend visualization
-- ✅ Appliance usage suggestions
 
 ---
 
-## 🚀 Features
+## Features
 
 | Feature                        | Description                                                                 |
 |-------------------------------|-----------------------------------------------------------------------------|
@@ -20,11 +19,9 @@ A lightweight, interactive Streamlit web app that predicts household electricity
 | ⚠️ **Anomaly Detection**       | Warns user if predicted usage crosses a defined threshold                   |
 | 🕒 **Best Hour Suggestion**    | Shows the hour with lowest average usage across dataset                     |
 | 📈 **Today's Usage Chart**     | Line plot of hourly usage for the current day                               |
-| 💡 **Appliance Scheduler**     | Suggests whether to use an appliance at the selected time                   |
-
 ---
 
-## 📂 Project Structure
+## Project Structure
   ```bash
   smart-home-energy-app/
   ├── app.py # Streamlit web app
@@ -32,4 +29,20 @@ A lightweight, interactive Streamlit web app that predicts household electricity
   ├── power_data.csv # Hourly energy data used for analysis
   ├── requirements.txt # Dependencies for deployment
   ```
-## 
+##  Try the app here 
+
+👉 **[Smart Home Energy App – Streamlit Live]((https://smart-home-energy-app-n8ubabpvy95jsrxogdayov.streamlit.app/))**
+
+## Dataset
+- UCI Household Electric Power Consumption Dataset
+
+  ---
+
+## Use Cases
+- Reducing home electricity bills
+- Planning optimal appliance usage times
+- Showcasing ML + Streamlit dashboard skills in interviews
+
+---
+  
+
