@@ -31,7 +31,7 @@ A lightweight, interactive Streamlit web app that predicts household electricity
   ```
 ##  Try the app here 
 
-👉 **[Smart Home Energy App – Streamlit Live]((https://smart-home-energy-app-n8ubabpvy95jsrxogdayov.streamlit.app/))**
+👉 **[Smart Home Energy App – Streamlit Live](https://smart-home-energy-app-n8ubabpvy95jsrxogdayov.streamlit.app/)**
 
 ## Dataset
 - UCI Household Electric Power Consumption Dataset
